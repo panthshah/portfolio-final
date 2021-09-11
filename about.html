@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./CSS/about.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+   <!-- For Navbar -->
+   <nav>
+    <div class="nav-container">
+      <a href="./index.html"><h1 class="logo">Panth&nbsp<span>Shah</span></h1></a>
+      <ul class="site-nav">
+        <li><a href="./home.html">Home</a></li>
+        <li><a href="./about.html" class="nactive">About Me</a></li>
+        <li><a href="./projects.html">Projects</a></li>
+        <li><a href="./contact.html">Contact Me</a></li>
+      </ul>
+    
+      <div class="menu-toggle">
+        <div class="hamburger"></div>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+  <div class="container">
+    <div class="left">
+      <h1>About Me</h1>
+      <p>I am passionate about Design and UX. I love making things pretty.
+        Panth is an designer and a coder based in Ahmedabad Gujarat .
+        I am a undergraduate student  pursuing B Tech in Information & Technology from Charusat University .
+        I am seeking for internships, where i could learn and show my best in betterment for the firm <br>
+      </p>
+      <div class="icons">
+        <a href="https://www.linkedin.com/in/panth-shah-09767918b/"><i class="fab fa-linkedin"></i></a>&nbsp;&nbsp;<a href="https://github.com/panthshah"><i class="fab fa-github-square"></i></a>&nbsp;&nbsp;<a href="https://www.instagram.com/uiwithpanth/"><i class="fab fa-instagram"></i></a>
+      </div>
+      </div>
+    <div class="right">
+      <img src="panth_logo.jfif" alt="">
+    </div>
+  </div>
+  <!-- For Navbar -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script>
+  $('.menu-toggle').click(function(){
+    $('.site-nav').toggleClass('site-nav--open', 500);
+    $(this).toggleClass('open');
+  });
+  </script>
+  <!-- End Navbar -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./CSS/home.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+  <title>Home</title>
+</head>
+<body>
+  <!-- For Navbar -->
+  <nav>
+    <div class="nav-container">
+      <a href="./index.html"><h1 class="logo">Panth&nbsp<span>Shah</span></h1></a>
+      <ul class="site-nav">
+        <li><a href="./home.html" class="nactive">Home</a></li>
+        <li><a href="./about.html">About Me</a></li>
+        <li><a href="./projects.html">Projects</a></li>
+        <li><a href="./contact.html">Contact Me</a></li>
+      </ul>
+    
+      <div class="menu-toggle">
+        <div class="hamburger"></div>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+  <div class="container">
+    <div class="left">
+      <p>Hey I am Panth</p>
+      <p>I am a <span>UI/UX</span> Designer</p>
+      <a href="./Assets/Resume/resume.pdf" target="_blank">Resume</a>
+    </div>
+    <div class="right">
+      <img src="./Assets/Sangeetic.png" alt="">
+    </div>
+  </div>
+  <!-- For Navbar -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script>
+  $('.menu-toggle').click(function(){
+    $('.site-nav').toggleClass('site-nav--open', 500);
+    $(this).toggleClass('open');
+  });
+  </script>
+  <!-- End Navbar -->
+</body>
+</html>
